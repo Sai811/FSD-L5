@@ -1,0 +1,75 @@
+/* General styling */
+body {
+  background-color: rgb(226, 241, 217); /* Light brownish background */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.App {
+  background-color:   rgb(210, 222, 192);
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  width: 400px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  background-color: #a0c459;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid #bf9c84;
+}
+
+/* Form group */
+.form-group {
+  margin-bottom: 15px;
+}
+
+input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #886c59;
+  border-radius: 5px;
+}
+
+input.error {
+  border-color: red;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+  display: block;
+}
+
+/* Success message styling */
+.success-message {
+  margin-top: 20px;
+  font-size: 18px;
+  color: green;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #b98663;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #8d6a4e;
+}

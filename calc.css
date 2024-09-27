@@ -1,0 +1,92 @@
+/* General body styling */
+body {
+  background-color: rgb(227, 210, 192);  /* Light brownish background */
+  font-family: Arial, sans-serif;        /* Clean font */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Main container */
+.App {
+  background-color: white;               /* White background for the calculator */
+  border-radius: 10px;                   /* Rounded corners */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Shadow around the box */
+  padding: 20px;
+  text-align: center;
+  max-width: 400px;                      /* Fixed width */
+  width: 100%;
+}
+
+/* Title styling */
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  background-color: #f8c471;             /* Light orange background for title */
+  border-radius: 5px;
+  padding: 10px;
+  border: 2px solid #bf9c84;             /* Slight brownish border */
+}
+
+/* Input styling */
+input {
+  width: calc(50% - 10px);               /* Inputs take up half the width */
+  padding: 10px;
+  font-size: 18px;
+  border: 2px solid #886c59;             /* Border around inputs */
+  border-radius: 5px;
+  margin: 10px 5px;                      /* Margin between inputs */
+}
+
+/* Button container */
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+/* Button styling */
+button {
+  width: calc(25% - 10px);               /* Buttons take up 1/4th width */
+  padding: 10px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  background-color: #b98663;             /* Light brown background */
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #8d6a4e;             /* Darker brown on hover */
+}
+
+button:active {
+  background-color: #705544;             /* Even darker brown on click */
+}
+
+/* Clear button styling */
+button:last-of-type {
+  background-color: #b7a065;             /* Different color for clear button */
+}
+
+button:last-of-type:hover {
+  background-color: #8f7b4e;
+}
+
+/* Result container */
+.result {
+  margin-top: 20px;
+}
+
+.result h2 {
+  font-size: 22px;
+  background-color: #f4d03f;             /* Yellow background for the result */
+  border-radius: 5px;
+  padding: 10px;
+  border: 2px solid #bf9c84;
+}
